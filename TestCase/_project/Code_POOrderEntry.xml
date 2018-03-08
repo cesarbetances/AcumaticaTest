@@ -45,7 +45,7 @@ namespace PX.Objects.PO
     [PXOverride]
     public IEnumerable CreatePOReceipt(PXAdapter adapter, CreatePOReceiptDelegate baseMethod)
     {
-      //JILL
+      //JILL VENENO
       return baseMethod(adapter);
     }
 
