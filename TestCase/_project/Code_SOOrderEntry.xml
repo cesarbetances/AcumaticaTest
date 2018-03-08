@@ -54,6 +54,7 @@ namespace PX.Objects.SO
     [PXOverride]
     public IEnumerable CopyOrder(PXAdapter adapter, CopyOrderDelegate baseMethod)
     {
+      //JACK
       return baseMethod(adapter);
     }
 
