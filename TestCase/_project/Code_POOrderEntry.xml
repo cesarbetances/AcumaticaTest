@@ -1,4 +1,4 @@
-<Graph ClassName="POOrderEntry" Source="#CDATA" IsNew="True" FileType="ExistingGraph">
+﻿<Graph ClassName="POOrderEntry" Source="#CDATA" IsNew="True" FileType="ExistingGraph">
     <CDATA name="Source"><![CDATA[using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -44,7 +44,7 @@ namespace PX.Objects.PO
     public delegate IEnumerable CreatePOReceiptDelegate(PXAdapter adapter);
     [PXOverride]
     public IEnumerable CreatePOReceipt(PXAdapter adapter, CreatePOReceiptDelegate baseMethod)
-    { //
+    { //TEST
       return baseMethod(adapter);
     }
 
