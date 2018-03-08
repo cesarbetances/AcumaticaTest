@@ -54,7 +54,7 @@ namespace PX.Objects.SO
     [PXOverride]
     public IEnumerable CopyOrder(PXAdapter adapter, CopyOrderDelegate baseMethod)
     {
-      //JACK VENENO
+      //JACK VENENO 2
       return baseMethod(adapter);
     }
 
